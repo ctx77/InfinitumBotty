@@ -22,7 +22,7 @@ class OeisObserver(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return ['.oeis - Befragt oeis.org nach einer Integersequenz']
+        return '.oeis - Befragt oeis.org nach einer Integersequenz'
 
     def update_on_priv_msg(self, data, connection: Connection):
         if data['message'].startswith('.oeis'):

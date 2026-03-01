@@ -27,7 +27,7 @@ class ICD11Observer(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return ['.icd11 <Code> - Gibt einen icd11 code aus. Ein leerer Befehl gibt einen zufälligen code aus']
+        return '.icd11 <Code> - Gibt einen icd11 code aus. Ein leerer Befehl gibt einen zufälligen code aus'
 
     def update_on_priv_msg(self, data, connection: Connection):
 

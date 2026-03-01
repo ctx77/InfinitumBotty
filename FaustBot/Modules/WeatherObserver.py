@@ -304,7 +304,7 @@ class WeatherObserver(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return ['.wetter <Stadt> - Befragt open-meteo.com nach einer Temperatur, Wettercode und Luftdruck am spezifizierten Ort']
+        return '.wetter <Stadt> - Befragt open-meteo.com nach einer Temperatur, Wettercode und Luftdruck am spezifizierten Ort'
 
     def update_on_priv_msg(self, data, connection: Connection):
 

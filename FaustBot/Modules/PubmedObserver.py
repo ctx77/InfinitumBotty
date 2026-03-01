@@ -19,7 +19,7 @@ class PubmedObserver(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return (".pubmed <term> - fragt Pub Med zu <term> ab. Achte auf Groß und kleinschreibung und auf Rechtschreibung")
+        return ".pubmed <term> - fragt Pub Med zu <term> ab. Achte auf Groß und kleinschreibung und auf Rechtschreibung"
 
     def update_on_priv_msg(self, data, connection):
 
