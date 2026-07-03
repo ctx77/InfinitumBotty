@@ -76,4 +76,6 @@ faust_bot.db
 faustbot/modules/txtfiles/WolframAlphaAPIKey.txt
 test.py
 /shell.nix
+.envrc
+.direnv/
 faustbot/modules/txtfiles/badquotes.txt
