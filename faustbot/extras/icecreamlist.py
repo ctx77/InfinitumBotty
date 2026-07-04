@@ -80,4 +80,17 @@ icecream = [
     "einen Honigmeloneneisbecher",
     "ein Honigmeloneneis",
     "ein Schoko Waffeleis vegan von Valsoia",
+    "ein Durianeis am Stiel",
+    "ein billiges Zitroneneis am Stiel"
+    "eine Schale Regenbogeneis mit Kaugummigeschmack",
+    "einen großen Karamelleisbecher",
+    "einen Teller Spaghettieis mit Erdbeersoße",
+    "ein dänisches Eis mit knackiger Schokohülle",
+    "Eiscreme mit Waldmeistergeschmack",
+    "eine Waffel mit Schokoladen-Minz-Eiscreme",
+    "eine Schale Frozen Joghurt mit zehn verschiedenen Toppings",
+    "drei Kugeln Cookies`n-Cream-Eis",
+    "eine ganze Packung Banana-Split und einen Löffel",
+    "ein Himbeereis mit weißer Schokoladenhülle",
+    "Mokka-Eiscreme mit einem klitzebisschen Pistazie",
 ]
