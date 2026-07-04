@@ -1,5 +1,6 @@
 import random
 import urllib
+import urllib.request
 import requests
 import html
 
@@ -33,11 +34,13 @@ class ComicObserver(PrivMsgObserverPrototype):
         # Check which type of comic it is: If it's one that doesn't need a scraper, get the url and return it.
         # If it needs a scraper, use ComicScraper to scrape the comic.
         # If you want to add custom comic scrapers: Look at ComicScraper.py and insert your functionality.
-        if not comic in scraper_comics:
+        if comic not in scraper_comics:
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64)"}
             req = urllib.request.Request(comic, None, headers)
             resource = urllib.request.urlopen(req)
-            title = TitleObserver.getTitle(TitleObserver(), resource)
-            connection.send_back(resource.geturl() + " " + title, data)
+            title = TitleObserver.getTitle(TitleObserver(), resource.url)
+            connection.send_back(resource.url + " " + title, data)
         else:
-            connection.send_back(ComicScraper.getRandomComic(comic), data)
+            url = ComicScraper.getRandomComic(self, comic)
+            title = TitleObserver.getTitle(TitleObserver(), url)
+            connection.send_back(url + " " + title, data)
