@@ -8,4 +8,4 @@ comics = [
 # URLs for comics which do not have a website based random functionality and therefore need a scraper module in Modules/ComicScraper.py
 # Note: Comics in this List without a scraper in Modules/ComicScraper.py will not be scraped and return a No-Scraper-Info in IRC.
 #       If you want to add a comic website here then you will probably have to add scraping functionality to the ComicScraper for it.
-scraper_comics = ["http://betamonkeys.co.uk/category/comics/feed/"]
+scraper_comics = ["https://joscha.com"]

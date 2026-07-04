@@ -1,47 +1,37 @@
 import random
+import re
 import requests
-# import urllib
-# import html
 
 
 # Comic scraper scrapes comics from urls that have no website based random functionality. Comic URLs have to be in comics.py
 class ComicScraper:
     # Scrapers for specific websites follow here:
-
-    # scraper for Betamonkeys
-    def scrapeBetamonkeys(url):
-        # get latest comic id from the website, then generate a random number within the range of 1 and the latest comic.
-        # Finally generate a new comic url from that. I know this is dirty - But it works for a comic i guess ;)
-        r = requests.get(url)
-        comic_id_latest = (
-            r.content.decode("utf-8")
-            .split("http://betamonkeys.co.uk/wp-content/stripshow_comics/betamonkeys")[1]
-            .split(".png")[0]
-        )
-        random_comic_number = str(random.randint(1, int(comic_id_latest)))
-        random_comic_url = (
-            "http://betamonkeys.co.uk/wp-content/stripshow_comics/betamonkeys"
-            + random_comic_number
-            + ".png"
-        )
-        return random_comic_url + " Betamonkeys " + random_comic_number + " | Betamonkeys"
+    # Scraper for betamonkeys.co.uk removed
 
     # scraper for Nichtlustig
-    def scrapeNichtlustig(url):
+    def scrapeNichtlustig(self):
         # TODO: Write a scraper for Nichtlustig!
-        return "Bisher kein Scraper für Nichtlustig."
+        # get content of get_cartoons_list.php
+
+        request = requests.get("https://joscha.com/get_cartoons_list.php")
+        slugs = re.findall(r"\"[0-9]{6}\"", request.text)
+        for i in range(len(slugs)):
+            slugs[i] = re.sub('"', "", slugs[i])
+
+        # Choose random index
+        comic = random.choice(slugs)
+
+        # return random comic
+        return "https://joscha.com/nichtlustig/" + comic
 
     # your custom scraper here
     # def scrapeYourCustomComic(url):
     # return "Your custom scraped URL"
 
     # Main scraping function. Takes url, decides scraping method to use. If no scraping method is found: return "No parser found"
-    def getRandomComic(url):
-        if "betamonkeys.co.uk" in url:
-            return ComicScraper.scrapeBetamonkeys(url)
-
-        if "nichtlustig.de" in url:
-            return ComicScraper.scrapeNichtlustig(url)
+    def getRandomComic(self, url):
+        if "joscha.com" in url:
+            return ComicScraper.scrapeNichtlustig(self)
 
         else:
             return "No parser found for comic URL: " + url

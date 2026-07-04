@@ -39,6 +39,8 @@ class ComicObserver(PrivMsgObserverPrototype):
             req = urllib.request.Request(comic, None, headers)
             resource = urllib.request.urlopen(req)
             title = TitleObserver.getTitle(TitleObserver(), resource.url)
-            connection.send_back(resource.geturl() + " " + title, data)
+            connection.send_back(resource.url + " " + title, data)
         else:
-            connection.send_back(ComicScraper.getRandomComic(self, comic), data)
+            url = ComicScraper.getRandomComic(self, comic)
+            title = TitleObserver.getTitle(TitleObserver(), url)
+            connection.send_back(url + " " + title, data)
