@@ -65,8 +65,9 @@ class ComicScraper(PrivMsgObserverPrototype):
         if "joscha.com" in url:
             return ComicScraper.scrapeNichtlustig(self)
 
-        if "explosm.net" in url:
+        elif "explosm.net" in url:
             return ComicScraper.scrapeExplosmNet(self)
+
         else:
             return "No parser found for comic URL: " + url
 
