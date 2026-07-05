@@ -210,7 +210,7 @@ class HangmanObserver(PrivMsgObserverPrototype):
                 and data["message"].split(" ")[1] not in self.commands
             ):
                 self.addHanWord(data["message"].split(" ")[1].upper())
-                log = open("HangmanLog", "a")
+                log = open("logs/HangmanLog", "a")
                 log.write(
                     data["nick"] + " ; " + data["message"].split(" ")[1].upper() + "\n"
                 )
