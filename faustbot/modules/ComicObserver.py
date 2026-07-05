@@ -89,9 +89,7 @@ class ComicObserver(PrivMsgObserverPrototype):
             # Join list of comics that have a web based random functionality and those that need a scraper
             all_comics = comics + scraper_comics
 
-            if (
-                connection.details.get_channel() == "#faust-bot"
-            ):  # "#autistenchat-fsk18":
+            if connection.details.get_channel() == "#autistenchat-fsk18":
                 all_comics = comics + scraper_comics + scraper_comics_fsk
 
             # Choose from the joined list
