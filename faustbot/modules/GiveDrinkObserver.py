@@ -1,7 +1,8 @@
 from faustbot.communication.Connection import Connection
 from faustbot.modules.PrivMsgObserverPrototype import PrivMsgObserverPrototype
-from faustbot.extras import getraenke
+from faustbot.extras.getraenke import Getraenke
 
+getraenke = Getraenke()
 
 class GiveDrinkObserver(PrivMsgObserverPrototype):
     @staticmethod

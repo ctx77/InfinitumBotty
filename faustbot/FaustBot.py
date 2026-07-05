@@ -58,7 +58,10 @@ from faustbot.modules.CustomUserModules import (
     ModmailObserver,
 )
 from faustbot import logger
-from faustbot.extras import bbb
+from faustbot.extras import (
+    bbb,
+    module_reloader
+)
 
 class FaustBot(object):
     def __init__(self, config_path: str):
@@ -127,7 +130,8 @@ class FaustBot(object):
         self.add_module(BaseObserver.BaseObserver())
         self.add_module(ConvertObserver.ConvertObserver())
         self.add_module(FortuneObserver.FortuneObserver())
-        self.add_module(bbb)
+        self.add_module(bbb.BBB())
+        self.add_module(module_reloader.ModuleReloader())
 
     def run(self):
         self._setup()
@@ -138,7 +142,7 @@ class FaustBot(object):
 
     def add_module(self, module: ModulePrototype):
         _module_name = str(module.__class__.__name__)
-        if module.__class__.__name__ in self._config.blacklist:
+        if _module_name in self._config.blacklist:
             logger.info(f"Module {_module_name} not loaded (blacklisted)")
         else:
             self._add_to_observable_by_function_existence(module)

@@ -3,13 +3,14 @@ import random
 from faustbot.communication.Connection import Connection
 from faustbot.modules.PrivMsgObserverPrototype import PrivMsgObserverPrototype
 from faustbot.extras.getraenkeOnlyGoodOnes import getraenkegoodones
-from faustbot.extras import getraenke
+from faustbot.extras.getraenke import Getraenke
 from faustbot.extras.essen import essen
 from faustbot.extras.icecreamlist import icecream
 from faustbot.extras.extras import giveextras
 from faustbot.extras.snacks import snacks
 from faustbot.extras.kekse import kekseGoodOnes
 
+getraenke = Getraenke()
 
 def _servier(receiver, item, requester):
     return f"\001ACTION serviert {receiver} {item}. Schöne Grüße von {requester}\001"

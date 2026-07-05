@@ -79,3 +79,4 @@ test.py
 .envrc
 .direnv/
 faustbot/modules/txtfiles/badquotes.txt
+logs/*

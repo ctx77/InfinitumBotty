@@ -5,7 +5,7 @@ from faustbot.model.HanDatabaseProvider import HanDatabaseProvider
 import csv
 
 HanDBProvider = HanDatabaseProvider()
-wordList = open("HangmanLog")
+wordList = open("logs/HangmanLog")
 wordListWords = csv.reader(wordList, delimiter=";", quotechar="|")
 randomChoicePool = []
 for word in wordListWords:

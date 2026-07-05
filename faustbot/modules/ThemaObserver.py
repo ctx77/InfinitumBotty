@@ -9,8 +9,9 @@ September 2025, Skadi Wiesemann
 import random
 from faustbot.communication.Connection import Connection
 from faustbot.modules.PrivMsgObserverPrototype import PrivMsgObserverPrototype
-from faustbot.extras import themen
+from faustbot.extras.themen import Themen
 
+themen = Themen()
 
 class ThemaObserver(PrivMsgObserverPrototype):
     @staticmethod

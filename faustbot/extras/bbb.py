@@ -44,9 +44,6 @@ class BBB(list):
         return data["nick"] in connection.details.get_mods() and connection.is_idented(data["nick"])
 
     def update_on_priv_msg(self, data: dict, connection: Connection):
-        if "send_back" not in connection.__dir__():
-            logger.error("This Module is Broken!")
-            return
         if data["message"].startswith(".bbb"):
             if data["message"].startswith(".bbb reload") and self._is_idented_mod(data, connection):
                 _old_bean_count = len(self)
@@ -60,7 +57,7 @@ class BBB(list):
 
             _response_bean_list = self
             if data["message"].startswith(".bbb "):
-                _color = str(data["message"].split(" ", 1)[1]).replace('ü', 'ue').replace('ä', 'ae').replace('ö', 'oe').lower()
+                _color = str(data["message"].split(" ", 1)[1]).replace('ü', 'ue').replace('ä', 'ae').replace('ö', 'oe').replace('ß', 'ss').lower()
                 for available_color in self.bbb_normal.keys():
                     if _color.startswith(available_color):
                         _response_bean_list = self.bbb_normal[available_color]

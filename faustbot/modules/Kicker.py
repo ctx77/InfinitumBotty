@@ -4,7 +4,7 @@ import time
 from faustbot.communication.Connection import Connection
 from faustbot.model.UserProvider import UserProvider
 from faustbot.modules.UserList import UserList
-from faustbot.extras import getraenke
+from faustbot.extras.getraenke import Getraenke
 from faustbot.extras.essen import essen
 from faustbot.extras.icecreamlist import icecream
 
@@ -12,6 +12,7 @@ from faustbot.modules.PingObserverPrototype import PingObserverPrototype
 from faustbot.modules.PongObserverPrototype import PongObserverPrototype
 from faustbot import logger
 
+getraenke = Getraenke()
 
 class Kicker(PingObserverPrototype, PongObserverPrototype):
     @staticmethod
