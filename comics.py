@@ -4,6 +4,7 @@ comics = [
     "http://www.commitstrip.com/?random=1",
     "https://satwcomic.com/random",
     "https://existentialcomics.com/comic/random",
+    "https://loadingartist.com/random",
 ]
 
 # URLs for comics which do not have a website based random functionality and therefore need a scraper module in Modules/ComicScraper.py
@@ -11,6 +12,7 @@ comics = [
 #       If you want to add a comic website here then you will probably have to add scraping functionality to the ComicScraper for it.
 scraper_comics = [
     "https://joscha.com",
+    "https://ruthe.de",
 ]
 
 scraper_comics_fsk = ["https://explosm.net"]
