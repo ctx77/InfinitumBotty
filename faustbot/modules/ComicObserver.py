@@ -84,7 +84,8 @@ class ComicObserver(PrivMsgObserverPrototype):
         if data["message"].find(".comic") == -1:
             return
 
-        if data["message"].startwith(".comic"):
+        if data["message"].startswith(".comic"):
+
             # Join list of comics that have a web based random functionality and those that need a scraper
             all_comics = comics + scraper_comics
 
