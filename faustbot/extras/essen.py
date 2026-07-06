@@ -350,7 +350,6 @@ essen = [
     "zwei dampfende Reis-Bohnen-Burritos",
     "Proteinbällchen, dazu Salat, Pita und Tzatziki",
     "vegetarisches Filet Wellington mit saftig-erdiger Pilznote",
-    "Durianfruchtfleisch, das geschmacklich leicht an Zwiebeln, aber auch an Banane erinnert",
     "böhmische Knödel mit Rotkraut und dunkler Soße",
     "eine Portion eingelegten Weißkrautsalat und eine Gabel",
     "eine richtig heiße Glutkartoffel",
@@ -358,6 +357,7 @@ essen = [
     "mit Sesam ummanteltes Inside-out-Sushi",
     "echte schwedische Sandwiches, dazu Milch und hinterher Eis",
 #non-good bzw. Referenzen, seltsames, etc.:
+    "Durianfruchtfleisch, das geschmacklich leicht an Zwiebeln, aber auch an Banane erinnert",
     "eine gigantische knusprige Krokette",
     "des Wahnsinns knusprige Beute",
     "eine hastig improvisierte Mahlzeit",
