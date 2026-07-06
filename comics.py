@@ -5,6 +5,7 @@ comics = [
     "https://satwcomic.com/random",
     "https://existentialcomics.com/comic/random",
     "https://loadingartist.com/random",
+    "https://www.buttersafe.com/random",
 ]
 
 # URLs for comics which do not have a website based random functionality and therefore need a scraper module in Modules/ComicScraper.py
