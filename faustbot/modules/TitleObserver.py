@@ -103,13 +103,11 @@ class TitleObserver(PrivMsgObserverPrototype):
                 raise Exception(f"Could not Parse Title for {url}")
 
         title = html.unescape(title)
-        title = title.replace("\n", " ").replace("\r", "")
+        title = title.replace("\n", " ").replace("\r", "").replace("\t", "")
         title = title.replace("&lt;", "<")
         title = title.replace("&gt;", ">")
         title = title.replace("&amp;", "&")
-        title = title.replace("&raquo", "»")
-        title = title.replace("\n", " ")
-        title = title.replace("\t", "")
+        title = title.replace("&raquo;", "»")
         if title == "":
             raise Exception(f"Empty Title for {url}")
         return title
