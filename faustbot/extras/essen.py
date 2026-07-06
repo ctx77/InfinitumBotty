@@ -229,7 +229,7 @@ essen = [
     "ein halbes Brötchen mit selbstgemachtem Kräuterquark",
     "ein Toast mit Avocado und Ei",
     "mexikanische Pommes mit Guacamole und gehackten Tomaten",
-    "eine Schale Pigs-in-a-Blanket",
+    "eine Schale Plants-in-a-Blanket",
     "einen hervorragend abgeschmeckten klassischen Salat",
     "Schnitzel mit Mischgemüse und Salzkartoffeln",
     "einen Apfel mit einer weißen und einer roten Backe",
