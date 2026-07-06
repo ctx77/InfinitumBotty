@@ -198,4 +198,6 @@ snacks = [
     "Poffertjes mit Butter und Puderzucker",
     "zwei Kokosnuss-Limetten-Törtchen",
     "zwei Schokoladen-Tarteletts mit frischer Minze",
+    "eine Tupperdose mit einer Klappstulle",
+    "eine Tupperdose mit einem Joghurt und einem klappernden Löffel",
 ]
