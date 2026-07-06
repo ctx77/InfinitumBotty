@@ -9,7 +9,6 @@ import json
 from faustbot.communication.Connection import Connection
 from faustbot.modules.PrivMsgObserverPrototype import PrivMsgObserverPrototype
 from faustbot.modules.TitleObserver import TitleObserver
-from faustbot.modules.ComicScraper import ComicScraper
 
 from comics import *
 
