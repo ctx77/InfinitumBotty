@@ -488,7 +488,6 @@ essen = [
     "ein Glas Erdnussbutter und einen Löffel",
     "eine Portion zappligen Zucchiniauflauf",
     "den Kraftriegel der deutschen Arbeiterklasse",
-    "Bratwurst mit Sauerkraut",
     "ein Bündel Petersilie",
     "Stulle mit Brot",
     "abgelaufenes Knäckebrot, das nicht mehr knackt",
