@@ -260,6 +260,7 @@ essen = [
     "Kirschsuppe mit Klüten"
     "eine köstliche Rolle Futomaki mit salzreduzierter Sojasauce",
     "ein Brötchen mit veganem Karottenlachs",
+    "Pancakes mit Ahornsirup",
 
 #non-good bzw. Referenzen, seltsames, etc.:
     "eine gigantische knusprige Krokette",
@@ -413,7 +414,7 @@ essen = [
     "eine meterlange Gurkenspirale",
     "Schwammerlsuppe mit Knallpilzen",
     "einen Tortilla-Sombrero mit Guacamole-Rand",
-
+    
 #Kuchen/Puddings/Süßspeisen die nicht Hauptspeise, Kekse, Eiscreme oder Snacks sind:
     "viel zu viele Waffeln",
     "ein Stück von Tante Mathildas Kirschkuchen"
@@ -477,4 +478,39 @@ essen = [
     "eine mehrstöckige Hochzeitstorte",
     "ein Stück Zitronentarte",
     "steirische Apfeltorte",
+    "einen Rührkuchen",
+    "einen veganen glutenfreien Karottenkuchen",
+    "einen saftigen Schokokuchen",
+    "eine Kirschtorte",
+    "einen Apfelkuchen",
+    "einen Pudding-Streuselkuchen",
+    "einen Rhabarberstreuselkuchen",
+    "einige perfekt zubereitete Churros mit Karamellsoße",
+    "einen Blaubeer-Joghurt-Gugelhupf",
+    "zwei Waffeln mit knusprigem Haselnusscrunch, frischen Beeren und Karamellsoße",
+    "ein Stück Plumpudding",
+    "ein Stück Plumpudding mit einer Münze darin",
+    "ein Stück Rhabarberkuchen mit Baiser",
+    "Beignets mit Puderzucker",
+    "einen ganzen Kürbis-Pie, gewürzt mit Zimt und Nelken",
+    "ein Stück Pecan Pie mit Karamellfüllung",
+    "eine Bananen-Creme-Tarte",
+    "ein Stück Birnen-Mandel-Tarte",
+    "eine halbe Süßkartoffel-Quiche mit Muskatnuss",
+    "ein Stück fluffigen Cheesecake mit Pistazien obendrauf",
+    "Pannenkoeken mit Apfelscheiben und Rosinen",
+    "Pannenkoeken mit Erdbeeren und Schlagsahne",
+    "Pannenkoeken mit gegrilltem Marshmallow und Keks",
+    "grob gezuckerte Bananen-Waffeln",
+    "eine Kaffeetafel mit duftenden Madeleines",
+    "den besten Käsekuchen, der jemals deine Geschmacksknospen berührte",
+    "eine herrliche Obsttorte",
+    "einen wobbelnden Pudding mit Chai-Geschmack und Sahnehäubchen",
+    "über Nacht gequollenen Couscous-Pudding mit frischen Früchten",
+    "ein extra großes Stück Geburtstagskuchen",
+    "ein Stück veganen Käsekuchen",
+    "eine Kelle selbst gekochtes Apfelmus",
+    "original britisches Pfirsich-Crumble",
+    "eine berüchtigte Käse-Sahne-Torte",
+    "einen geschmolzenen Marillenknödel",
 ]
