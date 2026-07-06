@@ -4,7 +4,6 @@ snacks = [
     "5 M&Ms",
     "ein Päckchen gesalzene Nüsse",
     "ein paar Apfelschnitze",
-    "eine Tüte salziges Popcorn",
     "ein Täfelchen Schokolade",
     "ein kleines Stück Käsekuchen",
     "ein kleines Stück Kuchen nach Wahl",
