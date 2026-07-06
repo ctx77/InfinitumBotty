@@ -200,4 +200,10 @@ snacks = [
     "zwei Schokoladen-Tarteletts mit frischer Minze",
     "eine Tupperdose mit einer Klappstulle",
     "eine Tupperdose mit einem Joghurt und einem klappernden Löffel",
+    "zwei knusprige Churros mit Mango-Chili-Füllung",
+    "zwei Churros mit überraschend türkiser Füllung",
+    "ein kleines Bäumchen mit Schokoladenfrüchten",
+    "einen Cocktailspieß, voll bestückt mit Sternfrucht und Physalis",
+    "einen Cocktailspieß, voll bestückt mit Ananas",
+    "ein Löffelchen Semmelbrösel",
 ]
