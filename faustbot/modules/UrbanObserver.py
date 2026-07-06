@@ -26,38 +26,47 @@ class UrbanObserver(PrivMsgObserverPrototype):
         if data["messageCaseSensitive"].find(".urban") == -1:
             return
 
-        # split incoming message in '.urban' and '<term>'
-        message = data["messageCaseSensitive"].split(" ", 1)
+        if data["message"].startswith(".urban "):
+            # split incoming message in '.urban' and '<term>'
+            message = data["messageCaseSensitive"].split(" ", 1)
 
-        # request content from Urban Dict with <term>
-        search = message[1]
+            # request content from Urban Dict with <term>
+            search = message[1]
 
-        def not_found():
-            connection.send_back(
-                f"Ich konnte leider keine definition für {search} finden", data
+            def not_found():
+                connection.send_back(
+                    f"Ich konnte leider keine Definition für {search} finden", data
+                )
+
+            contents = requests.get(
+                f"https://www.urbandictionary.com/define.php?term={search}"
             )
 
-        contents = requests.get(f"https://www.urbandictionary.com/define.php?term={search}")
+            # use build in tools to extract content and status code for further processing
 
-        # use build in tools to extract content and status code for further processing
+            status = int(contents.status_code)
 
-        status = int(contents.status_code)
+            if status != 200:
+                not_found()
+            else:
+                for line in contents.content.decode(encoding="utf-8").split("\n"):
+                    if "mainEntity" in line:
+                        groups = re_search("({.*mainEntity.*})", line).groups()
+                        if len(groups) == 1:
+                            break
+                        else:
+                            continue
+                else:
+                    not_found()
 
-        if status != 200:
-            not_found()
+                answer = (
+                    json_loads(groups[0])
+                    .get("mainEntity", {})
+                    .get("description", False)
+                )
+                if answer:
+                    connection.send_back(f"{data['nick']}: {search} - {answer}", data)
+                else:
+                    not_found()
         else:
-            for line in contents.content.decode(encoding="utf-8").split("\n"):
-                if "mainEntity" in line:
-                    groups = re_search("({.*mainEntity.*})", line).groups()
-                    if len(groups) == 1:
-                        break
-                    else:
-                        continue
-            else:
-                not_found()
-
-            answer = json_loads(groups[0]).get("mainEntity", {}).get("description", False)
-            if answer:
-                connection.send_back(f"{data['nick']}: {search} - {answer}", data)
-            else:
-                not_found()
+            return
