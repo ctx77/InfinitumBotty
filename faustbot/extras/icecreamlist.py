@@ -80,7 +80,6 @@ icecream = [
     "einen Honigmeloneneisbecher",
     "ein Honigmeloneneis",
     "ein Schoko Waffeleis vegan von Valsoia",
-    "ein Durianeis am Stiel",
     "ein billiges Zitroneneis am Stiel"
     "eine Schale Regenbogeneis mit Kaugummigeschmack",
     "einen großen Karamelleisbecher",
