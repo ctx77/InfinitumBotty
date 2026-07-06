@@ -194,4 +194,8 @@ snacks = [
     "ein Stück frische Honigwabe",
     "kandierte Pomeloschale",
     "eine Schale Pudding mit echtem Sago",
+    "Poffertjes mit Agavendicksaft und Früchten",
+    "Poffertjes mit Butter und Puderzucker",
+    "zwei Kokosnuss-Limetten-Törtchen",
+    "zwei Schokoladen-Tarteletts mit frischer Minze",
 ]
