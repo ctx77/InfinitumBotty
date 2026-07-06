@@ -29,7 +29,7 @@ giveextras = [
     "eine Rolle Klebestreifen ohne findbaren Anfang",
     "ein altes Telefon mit Wählscheibe auf einem Silbertablett",
     "ein Stilleben aus Wachs",
-    "eine kaum Licht spendende Waltranfunsel",
+    "die historischen Überreste einer kaum Licht spendenden Waltranfunsel",
     "eine überraschende Wendung der Dinge",
     "eine dramatische Intrige",
     "einen geheimnisvollen Schlüssel unter einer Speiseglocke",
