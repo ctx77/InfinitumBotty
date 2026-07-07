@@ -61,6 +61,10 @@ class TitleObserver(PrivMsgObserverPrototype):
                 r'''"results":{"contents":\[{"videoPrimaryInfoRenderer":{"title":{"runs":\[{"text":"([^"]*)"'''
             )
             yt_json_data_re = re.compile("""var ytInitialData = ([^;]*)""")
+
+        elif re.search("https?://[^/]*buttersafe.com", url):
+            title_re = re.compile(r"<title[^>]*.\s*(.+?)</title>")
+
         else:
             title_re = re.compile("<title[^>]*>(.+?)</title>")
 
@@ -81,7 +85,9 @@ class TitleObserver(PrivMsgObserverPrototype):
 
         if yt_json_data_re:
             yt_json_data = json.loads(yt_json_data_re.search(content).group(1))
-            _vid = yt_json_data["playerOverlays"]["playerOverlayRenderer"]["videoDetails"]
+            _vid = yt_json_data["playerOverlays"]["playerOverlayRenderer"][
+                "videoDetails"
+            ]
             _base = _vid["playerOverlayVideoDetailsRenderer"]
             _title = _base["title"]["simpleText"]
             _creator = _base["subtitle"]["runs"][0]["text"]
@@ -97,10 +103,11 @@ class TitleObserver(PrivMsgObserverPrototype):
                 raise Exception(f"Could not Parse Title for {url}")
 
         title = html.unescape(title)
-        title = title.replace("\n", " ").replace("\r", "")
+        title = title.replace("\n", " ").replace("\r", "").replace("\t", "")
         title = title.replace("&lt;", "<")
         title = title.replace("&gt;", ">")
         title = title.replace("&amp;", "&")
+        title = title.replace("&raquo;", "»")
         if title == "":
             raise Exception(f"Empty Title for {url}")
         return title

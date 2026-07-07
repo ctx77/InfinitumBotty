@@ -56,6 +56,17 @@ class ComicScraper(PrivMsgObserverPrototype):
         comic = random.choice(slugs)
         return "https://explosm.net/comics/" + comic
 
+    def scrapeRuthe(self):
+
+        # Get last comic
+        request = requests.get("https://ruthe.de")
+        cartoonLast = re.findall(r"/archiv/[0-9]{1,4}", request.text)
+        cartoonLastNr = re.findall(r"[0-9]+$", cartoonLast[0])
+
+        comic = random.randint(1, int(cartoonLastNr[0]))
+
+        return "https://ruthe.de/cartoon/" + str(comic)
+
     # your custom scraper here
     # def scrapeYourCustomComic(url):
     # return "Your custom scraped URL"
@@ -65,8 +76,12 @@ class ComicScraper(PrivMsgObserverPrototype):
         if "joscha.com" in url:
             return ComicScraper.scrapeNichtlustig(self)
 
-        if "explosm.net" in url:
+        elif "explosm.net" in url:
             return ComicScraper.scrapeExplosmNet(self)
+
+        elif "ruthe.de" in url:
+            return ComicScraper.scrapeRuthe(self)
+
         else:
             return "No parser found for comic URL: " + url
 
