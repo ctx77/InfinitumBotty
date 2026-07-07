@@ -182,4 +182,6 @@ giveextras = [
     "eine Sonnenliege im Halbschatten",
     "eine im Wind wehende Ironie-Fahne",
     "einen Hoodie zum Verstecken",
+    "den Orden des Merlins, 1. Klasse",
+    "die Medaille für besondere Verdienste für den Chat",
 ]
