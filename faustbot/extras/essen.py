@@ -1,4 +1,8 @@
 essen = [
+    "mit Spinat und Mozzarella gefüllte Kartoffeltaschen",
+    "dampfende Baozi, gefüllt mit einer deftigen Mischung aus Kohl und Erbsenhack",
+    "eine besondere Delikatesse",
+    "Bandnudeln mit geröstetem Tofu und Kräutergarnierung",
     "einen Wirsingeintopf",
     "einen Lahmacun",
     "eine Portion Kartoffelbrei",
@@ -686,4 +690,13 @@ essen = [
     "eine Hotzenplotz-Torte",
     "einen Zimtwickel am Räuberspieß",
     "eine Teigschüssel zum Ausschlecken",
-]
+    "liebevoll zubereitete Pflaumenknödel",
+    "eine fluffige Torte mit wunderschönem Pfirsich-Maracuja-Fruchtspiegel",
+    "einen noch in der Kastenform ruhenden Honigkuchen",
+    "Ricottakuchen vom Feinsten",
+    "Mohnkuchen vom Blech",
+    "No-Bake-Himbeerkuchen",
+    "Quarkkuchen mit Rosinen",
+    "einen Brettspielkuchen mit genug Gummibärchen-Figuren für vier Spieler",
+    "eine aufwändig verzierte Pinata-Torte, die mit Smarties gefüllt ist",
+    ]
