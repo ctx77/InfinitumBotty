@@ -114,4 +114,5 @@ getraenkegoodones = [
     "einen wohligen Nachttrunk aus heißer Milch mit Honig",
     "Limonade mit Eis",
     "Kürbissaft",
+    "frisch aufgebrühten türkischen Apfeltee",
 ]
