@@ -115,4 +115,8 @@ getraenkegoodones = [
     "Limonade mit Eis",
     "Kürbissaft",
     "frisch aufgebrühten türkischen Apfeltee",
+    "einen Coconut-Coffee",
+    "ein Glas schwarzen Sesam-Latte",
+    "zwei Tassen heiße weiße Schokolade",
+    "ein hübsches Kristallglas mit Grapefruit-Limonade",
 ]
