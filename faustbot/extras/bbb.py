@@ -13,6 +13,7 @@ class BBB(list):
     def __init__(self):
         self.bbb_normal = {}
         self.bbb_special = {}
+        self._bbb_give_word = ["schenkt", "überreicht"]
         for _entry in scandir('faustbot/modules/txtfiles/bbb'):
             if _entry.is_file():
                 self.bbb_normal.update(self._read_file(_entry))
@@ -36,6 +37,7 @@ class BBB(list):
     @staticmethod
     def cmd():
         return [".bbb"]
+
     @staticmethod
     def help():
         return ".bbb - und du bekommst eine womöglich schmackhafte Bohne."
@@ -64,6 +66,6 @@ class BBB(list):
                         break
             
             connection.send_back(
-                f"\001ACTION schenkt {data.get('nick')} {choice(_response_bean_list)}.\001",
+                f"\001ACTION {choice(self._bbb_give_word)} {data.get('nick')} {choice(_response_bean_list)}.\001",
                 data,
             )

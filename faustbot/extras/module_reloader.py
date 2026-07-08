@@ -53,7 +53,7 @@ class ModuleReloader(object):
 
             if _cmd == "list" or _cmd == "ls":
                 connection.send_back(
-                    f"\001ACTION kann die folgenden Module verwalten (rm, reload): {", ".join(list(_reloadable_mods.keys()))}.\001",
+                    f"\001ACTION kann die folgenden Module verwalten (rm, reload): {', '.join(list(_reloadable_mods.keys()))}.\001",
                     data,
                 )
 
@@ -99,9 +99,7 @@ class ModuleReloader(object):
                             import faustbot.extras.bbb as _new_mod
 
                             _new_mod = reload(_new_mod)
-                            connection.priv_msg_observable._observers.append(
-                                _new_mod.BBB()
-                            )
+                            connection.priv_msg_observable._observers.append(_new_mod.BBB())
 
                         case "module_reloader":
                             import faustbot.extras.module_reloader as _new_mod
