@@ -220,4 +220,6 @@ snacks = [
     "ein Stück Earl-Grey-Kugelhupf und dazu eine Tasse Schwarztee",
     "saftige Kuchenpralinen, angerichtet auf einer muschelförmigen Platte",
     "einen ganzen Strauß bunt verzierter Cake-Pops",
+    "Low-Carb Hüttenkäsetaler",
+    "Vollkorncracker mit Tomaten-Dip",
 ]
