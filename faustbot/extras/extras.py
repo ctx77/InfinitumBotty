@@ -184,4 +184,7 @@ giveextras = [
     "einen Hoodie zum Verstecken",
     "den Orden des Merlins, 1. Klasse",
     "die Medaille für besondere Verdienste für den Chat",
+    "einen wuchtigen Ventilator",
+    "einen schwachen Handventilator",
+    "zwei Vollzeitangestellte, die dir mit riesigen Bananenblättern Luft zufächern",
 ]
