@@ -148,4 +148,8 @@ icecream = [
     "eine Eistüte Zitrone-Lavendel",
     "einen Becher Walnusseis mit Karamellsoße",
     "selbstgemachte Mochi-Eiscreme",
+    "Chocolate-Chili-Eiscreme",
+    "Toffee-Eiscreme",
+    "Cheesecake-Eis mit Beeren-Topping",
+    "Waldfrucht-Limonaden-Sorbet",
 ]
