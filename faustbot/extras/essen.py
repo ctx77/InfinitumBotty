@@ -362,6 +362,7 @@ essen = [
     "echte schwedische Sandwiches, dazu Milch und hinterher Eis",
 #non-good bzw. Referenzen, seltsames, etc.:
     "Durianfruchtfleisch, das geschmacklich leicht an Zwiebeln, aber auch an Banane erinnert",
+    "eine karierte Decke und einen Picknickkorb, der aus allen Nähten platzt vor lauter Köstlichkeiten",
     "eine gigantische knusprige Krokette",
     "des Wahnsinns knusprige Beute",
     "eine hastig improvisierte Mahlzeit",
