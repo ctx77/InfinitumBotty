@@ -1,6 +1,6 @@
 essen = [
     "mit Spinat und Mozzarella gefüllte Kartoffeltaschen",
-    "dampfende Baozi, gefüllt mit einer deftigen Mischung aus Kohl und Erbsenhack",
+    "dampfende Baozi, gefüllt mit einer deftigen Mischung aus Chinakohl und Erbsenhack",
     "eine besondere Delikatesse",
     "Bandnudeln mit geröstetem Tofu und Kräutergarnierung",
     "einen Wirsingeintopf",
@@ -27,7 +27,7 @@ essen = [
     "einen Toast Hawaii",
     "indisches Gemüse Curry",
     "einen Planted-Gyrosteller mit Tzatziki",
-    "ein Pilz-Risotto",
+    "Steinpilz-Risotto",
     "ein paar Mini-Frühlingsrollen",
     "würziges Sauerkraut",
     "Bratkartoffeln",
