@@ -152,4 +152,6 @@ icecream = [
     "Toffee-Eiscreme",
     "Cheesecake-Eis mit Beeren-Topping",
     "Waldfrucht-Limonaden-Sorbet",
+    "hochwertiges Vanilleeis mit heißen Himbeeren"
+    "einen Eiswagen von Meadow Fresh, der sich mit einer fröhlichen Melodie von „Mary Had a Little Lamb“ ankündigt",
 ]
