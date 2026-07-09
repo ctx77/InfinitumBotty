@@ -119,4 +119,6 @@ getraenkegoodones = [
     "ein Glas schwarzen Sesam-Latte",
     "zwei Tassen heiße weiße Schokolade",
     "ein hübsches Kristallglas mit Grapefruit-Limonade",
+    "heiße vegane Orangenschokolade",
+    "zwei Mokka-Bananen-Shakes mit vier Strohhalmen",
 ]
