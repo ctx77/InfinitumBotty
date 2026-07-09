@@ -187,4 +187,8 @@ giveextras = [
     "einen wuchtigen Ventilator",
     "einen schwachen Handventilator",
     "zwei Vollzeitangestellte, die dir mit riesigen Bananenblättern Luft zufächern",
+    "ein Hörspiel zum Einschlafen",
+    "ein Hörspiel zum Putzen",
+    "eine ausgezeichnete Idee",
+    "das neueste Modell eines Feuerblitzes",
 ]
