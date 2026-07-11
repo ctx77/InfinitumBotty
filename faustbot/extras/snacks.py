@@ -225,7 +225,7 @@ snacks = [
     "Salzcracker mit frischem Gurken-Dip",
     "duftende Knoblauchknoten",
     "gepuderte Dattel-Nuss-Bällchen",
-    "auf dem Fensterbrett servierte Hirse",
+    "Hirse auf dem Fensterbrett",
     "vegane Milchschnitten",
     "knusprige Brokkoli-Taler",
     "ein winziges Schüsselchen Polenta",
