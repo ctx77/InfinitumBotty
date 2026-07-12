@@ -1,7 +1,7 @@
 snacks = [
     "eine handvoll Salzbrezeln",
     "ein Schälchen Chips",
-    "5 M&Ms",
+    "fünf M&Ms",
     "ein Päckchen gesalzene Nüsse",
     "ein paar Apfelschnitze",
     "ein Täfelchen Schokolade",
@@ -11,7 +11,7 @@ snacks = [
     "eine Hand voll Trockenfrüchte",
     "einen gesunden Riegel",
     "eine Tüte Luft",
-    "5 Schokobons",
+    "fünf Schokobons",
     "eine Schale Nachos",
     "einen Kinderriegel",
     "eine schwarze Lindor Schokokugel",
@@ -232,8 +232,9 @@ snacks = [
     "in Chiasamen gerollte Möhrenbällchen",
     "knusprige Veggie-Nuggets",
     "Himbeer-Schokoladen-Bissen",
-    "Kokoscreme mit Melone",
+    "ein Schälchen Kokoscreme mit Melone",
     "selbstgemachte Mandel-Müsli-Riegel",
     "gegrillte Birnenhälften mit Zitronenthymian",
     "vegane Tofu-Erdnuss-Sticks",
+    "sizilianische Cannoli mit Ricotta, Pistazien und Schokostreuseln",
 ]
