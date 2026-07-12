@@ -127,4 +127,5 @@ getraenkegoodones = [
     "zwei Gläser Kurkuma-Latte",
     "einen duftenden Apfel-Zimt-Drink",
     "Lindenblütentee",
+    "ein hübsches Gedeck mit Zitronengrastee",
 ]
