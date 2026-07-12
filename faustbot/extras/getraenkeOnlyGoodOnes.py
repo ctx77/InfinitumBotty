@@ -121,4 +121,9 @@ getraenkegoodones = [
     "ein hübsches Kristallglas mit Grapefruit-Limonade",
     "heiße vegane Orangenschokolade",
     "zwei Mokka-Bananen-Shakes mit vier Strohhalmen",
+    "eine Kanne Salbeitee",
+    "eine Kanne Hagebuttentee",
+    "eisgekühlte Johannisbeerschorle",
+    "zwei Gläser Kurkuma-Latte",
+    "einen duftenden Apfel-Zimt-Drink"
 ]
