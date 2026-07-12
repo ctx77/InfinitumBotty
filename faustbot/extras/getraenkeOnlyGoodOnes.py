@@ -125,5 +125,6 @@ getraenkegoodones = [
     "eine Kanne Hagebuttentee",
     "eisgekühlte Johannisbeerschorle",
     "zwei Gläser Kurkuma-Latte",
-    "einen duftenden Apfel-Zimt-Drink"
+    "einen duftenden Apfel-Zimt-Drink",
+    "Lindenblütentee",
 ]
