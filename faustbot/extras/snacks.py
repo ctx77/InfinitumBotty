@@ -237,4 +237,6 @@ snacks = [
     "gegrillte Birnenhälften mit Zitronenthymian",
     "vegane Tofu-Erdnuss-Sticks",
     "sizilianische Cannoli mit Ricotta, Pistazien und Schokostreuseln",
+    "vier fluffige Birnenmuffins",
+    "einen innovativen Tiramisu-Muffin",
 ]
