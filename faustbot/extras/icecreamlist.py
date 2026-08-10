@@ -79,7 +79,7 @@ icecream = [
     "einen Honigmeloneneisbecher",
     "ein Honigmeloneneis",
     "ein Schoko Waffeleis vegan von Valsoia",
-    "ein billiges Zitroneneis am Stiel"
+    "ein billiges Zitroneneis am Stiel",
     "eine Schale Regenbogeneis mit Kaugummigeschmack",
     "einen großen Karamelleisbecher",
     "einen Teller Spaghettieis mit Erdbeersoße",
@@ -151,7 +151,7 @@ icecream = [
     "Toffee-Eiscreme",
     "Cheesecake-Eis mit Beeren-Topping",
     "Waldfrucht-Limonaden-Sorbet",
-    "hochwertiges Vanilleeis mit heißen Himbeeren"
+    "hochwertiges Vanilleeis mit heißen Himbeeren",
     "einen Eiswagen von Meadow Fresh, der sich mit einer fröhlichen Melodie von „Mary Had a Little Lamb“ ankündigt",
     "einen schwedischen Eisbecher mit Apfelmus und alkoholfreiem Eierlikör",
     "zwei Eisbecher „Coffee-Toffee-Traum“",
