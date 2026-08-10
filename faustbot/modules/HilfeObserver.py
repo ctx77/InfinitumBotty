@@ -17,7 +17,7 @@ class HilfeObserver(PrivMsgObserverPrototype):
 
     @staticmethod
     def help():
-        return [".hilfe - Gibt anlaufstellen für Akute Hilfe aus"]
+        return ".hilfe - Gibt anlaufstellen für Akute Hilfe aus"
 
     def update_on_priv_msg(self, data, connection: Connection):
         if data["message"].startswith(".hilfe"):
