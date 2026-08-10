@@ -23,7 +23,7 @@ class ICDObserver(PrivMsgObserverPrototype):
         return None
 
     def update_on_priv_msg(self, data, connection: Connection):
-        if data["message"].startswith(".icd"):
+        if data["message"].startswith(".icd "):
             if data["channel"] == connection.details.get_channel():
                 regex = r"\b(\w\d{2}\.?\d?\d?)\b"
                 codes = re.findall(regex, data["message"])
