@@ -15,12 +15,12 @@ GRAMM_POUND = 453.592
 FAHR_CEL = 1.8
 
 umrechnung = {
-    ("zentimeter", "inch"): ZENT_INCH / 1,
-    ("inch", "zentimeter"): ZENT_INCH,
-    ("gramm", "pound"): GRAMM_POUND / 1,
-    ("pound", "gramm"): GRAMM_POUND,
-    ("fahrenheit", "celsius"): FAHR_CEL,
-    ("celsius", "fahrenheit"): FAHR_CEL / 1,
+    ("zentimeter", "inch"): 1 / ZENT_INCH,  # cm to inch (divide)
+    ("inch", "zentimeter"): ZENT_INCH,       # inch to cm (multiply)
+    ("gramm", "pound"): 1 / GRAMM_POUND,    # gram to pound (divide)
+    ("pound", "gramm"): GRAMM_POUND,        # pound to gram (multiply)
+    ("fahrenheit", "celsius"): 1 / FAHR_CEL, # F to C (divide)
+    ("celsius", "fahrenheit"): FAHR_CEL,    # C to F (multiply)
 }
 
 
@@ -61,11 +61,10 @@ class ConvertObserver(PrivMsgObserverPrototype):
                 return
             if von == "fahrenheit" and zu == "celsius":
                 faktor = umrechnung.get((von, zu))
-                ergebnis = round((zahl * faktor + 32), 2)
-
+                ergebnis = round(((zahl - 32) * faktor), 2)  # (F - 32) * 5/9
             elif von == "celsius" and zu == "fahrenheit":
                 faktor = umrechnung.get((von, zu))
-                ergebnis = round((zahl * faktor - 32), 2)
+                ergebnis = round((zahl * faktor + 32), 2)    # (C * 9/5) + 32
 
             else:
                 try:
