@@ -56,8 +56,8 @@ chmod u+x ./nix-bot-run.sh
 ```
 
 ## Contribution
-Have a look into our issues. Some are explicitly marked as `help wanted` or `For Beginners`. If you're new to programming the last one would be a good point to begin with. Of course you're also free to choose your own issue or task to work on.
-Before contributing please join `#faust-bot` on libera.chat.
+Have a look into our issues. Some are explicitly marked as `help wanted` or `For Beginners`. If you're new to programming the last one would be a good point to begin with. Of course you're also free to choose your own issue or task to work on.  
+Before contributing please join `#faust-bot` on libera.chat.  
 If you have any question you're also welcome to join us in `#faust-bot` on libera.chat.
 
 Before creating a pull request please test your code. Untested, obviously buggy code will - of course - be rejected.
