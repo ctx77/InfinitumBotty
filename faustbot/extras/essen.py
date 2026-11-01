@@ -1,4 +1,8 @@
 essen = [
+    "einen sommerlichen Erdbeersalat",
+    "eine sommerliche Platte Tomate-Mozzarella",
+    "einen reich gedeckten Tisch mit frischen Frühlingsspeisen",
+    "eine leckere knackige Grünkohlpfanne",
     "mit Spinat und Mozzarella gefüllte Kartoffeltaschen",
     "dampfende Baozi, gefüllt mit einer deftigen Mischung aus Chinakohl und Erbsenhack",
     "eine besondere Delikatesse",
@@ -437,6 +441,8 @@ essen = [
     "Spinatknödel mit Parmesan",
     "einen Salat aus Staudensellerie und Belugalinsen",
 #non-good bzw. Referenzen, seltsames, etc.:
+    "eine einzelne übergroße Porreestange, die du mit beiden Händen greifen musst",
+    "einen Korb voll Grünzeug",
     "Durianfruchtfleisch, das geschmacklich leicht an Zwiebeln, aber auch an Banane erinnert",
     "eine karierte Decke und einen Picknickkorb, der aus allen Nähten platzt vor lauter Köstlichkeiten",
     "eine gigantische knusprige Krokette",
@@ -668,6 +674,8 @@ essen = [
     "fruchtige Apfel-Himbeer-Kirsch-Zitronen… ehm, Creme",
     "einen Flatschen unterwürztes Porree-Porridge",
 #Kuchen/Puddings/Süßspeisen die nicht Hauptspeise, Kekse, Eiscreme oder Snacks sind:
+    "einen köstlichen veganen Marzipanstollen",
+    "einen herbstlichen Apfelstrudel",
     "viel zu viele Waffeln",
     "ein Stück von Tante Mathildas Kirschkuchen",
     "dreizehn üppige Zimtschnecken",
